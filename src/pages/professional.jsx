@@ -219,11 +219,10 @@ const projects = () => {
                 summary={
                   <>
                     <p>
-                      The purpose of J.I.M+'s Countries website application is
-                      to provide information about all countries in the world
-                      and create activities, making the tourist trip planning
-                      easier. The information is provided by RESTful Application
-                      Program Interface restcountries.com."
+                      The Festival was born in 2010 as a result of the curiosity
+                      and creativity of a community of musicians seeking new
+                      spaces and bridges to export and import sounds, thoughts,
+                      experiences, and languages.
                     </p>
 
                     <ul>
