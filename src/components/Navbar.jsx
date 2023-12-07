@@ -165,8 +165,8 @@ const NavBar = () => {
               toggle={handleClick}
             />
             <CustomMobileLink
-              href="/projects"
-              title="Projects"
+              href="/professional"
+              title="Professional"
               className=""
               toggle={handleClick}
             />
@@ -174,32 +174,42 @@ const NavBar = () => {
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://twitter.com/ji_mascarenhas"
-              target={"_blank"}
-              className="w-6 mr-3 sm:mx-1"
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <TwitterIcon />
-            </motion.a>
-            <motion.a
-              href="https://github.com/JIM90mdp"
-              target={"_blank"}
-              className="w-6 mx-3 sm:mx-1 bg-light dark:bg-dark rounded-full"
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <GithubIcon />
-            </motion.a>
-            <motion.a
-              href="https://www.linkedin.com/in/mascarenhas-developer/"
-              target={"_blank"}
-              className="w-6 mx-3 sm:mx-1"
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <LinkedInIcon />
-            </motion.a>
+            href="https://twitter.com/ji_mascarenhas"
+            target={"_blank"}
+            className="w-6 mr-3 sm:mx-1"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <TwitterIcon />
+          </motion.a>
+          
+          <motion.a
+            href="https://www.upwork.com/freelancers/~01aa2402fd9ff463f6"
+            target={"_blank"}
+            className="w-6 mr-3 sm:mx-1"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <UpWork />
+          </motion.a>
+          <motion.a
+            href="https://www.youtube.com/channel/UCiHWSMwp4nD8Y3eZzX4Q8Ew"
+            target={"_blank"}
+            className="w-6 mr-3 sm:mx-1"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <Youtube />
+          </motion.a>
+          <motion.a
+            href="https://www.linkedin.com/in/juan-ignacio-mascarenhas-31b83729a/"
+            target={"_blank"}
+            className="w-6 mr-3 sm:mx-1"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <LinkedInIcon />
+          </motion.a>
             
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
