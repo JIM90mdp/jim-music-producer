@@ -5,8 +5,8 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icon";
 import HireMe from "@/components/HireMe";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
-import lightBulb from "../../public/images/svgs/undraw_speed_test_re_pe1f.svg";
+import profilePic from "../../public/images/profile/developer-pic-1.jpg";
+import lightBulb from "../../public/images/profile/developer-pic-22.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import SEO from "@/components/SEO";
 

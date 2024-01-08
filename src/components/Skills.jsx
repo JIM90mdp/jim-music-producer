@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const Skill = ({ name, x, y }) => {
+const Skill = ({ name, x, y, logo }) => {
   return (
     <motion.div
       className="flex items-center justify-center rounded-full font-semibold bg-dark text-light px-6 py-3 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold"
